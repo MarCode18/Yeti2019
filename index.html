@@ -1,0 +1,350 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+<body>
+
+
+	<div class="off-canvas-content" data-off-canvas-content>
+  	
+	 Hola MarCode 2019
+	    <i class="fi-heart"></i>
+	    <br>
+	
+	    <header id="header">
+	    	<div class="grid-container">
+	    		<div class="grid-x"> <!--porque MarCode-----------------------------login--Cart----------->
+	    			<div class="cell small-2 small-order-2 medium-order-1"><!---medium-2 se sobreentiende---> 
+	    				<!--en mediano mide 2/12 tiene un primer lugar y en small mide 1/12 con segundo lugar --->
+	    
+	    				<a href=""><h1>MarCode</h1></a>
+	    			</div>
+	    			<div class="cell small-1 show-for-small-only small-order-3 small-offset-9" style="display: flex;justify-content: flex-end;align-items: center;"><!---flex-end:tirado ala derecha---> 
+	    				<!---Solo se mostrara en moviles, 9offset complementa a small-2(Marcode) + small-1(icono fi-list) es decir 9+3=12 y en tercer lugar ---> 
+	    				<button type="button" data-toggle="offCanvas"><!---icono canvas de menu escondido---> 
+	    					<i class="fi-list"></i>
+	    				</button>
+	    			</div>
+	    			<div class="cell small-12 medium-4 medium-offset-6 small-order-1 medium-order-2">
+	    				<!--en mediano mide 4/12 tiene un segundo lugar y en small mide 1/12 con primer lugar --->
+	    				<ul class="menu">
+	    					<li><a class="padding-bottom-0 padding-left-0" href="#">Login</a></li> <!--estilo css--->
+	    					<li><a class="padding-bottom-0" href="#"><i class="fi-shopping-cart"></i>Cart</a></li> <!--estilo css--->
+	    				</ul>
+	    				<div class="show-for-large"><!--solo aparece en pantalla pc--->
+	    					<hr></hr>
+	    					<h2 class="h6 margin-bottom-0"><!--estilo css--->
+	    						<strong>Tatuajes Marcode</strong><br>
+	    						<small>Enviados con amor, desde Lima</small>
+	    					</h2>
+	    				</div>
+	    				<div class="show-for-medium"><!--solo aparece en pantallas medium y large--->
+	    					<hr></hr> <!--linea punteada dotted-->
+	    						<div class="input-group">
+	    							<input class="input-group-field"></input> <!--estilo bootstrap de campo--->
+	    							<div class="input-group-button"><!--estilo bootsrap de boton--->
+	    								<input type="submit" class="button secondary small text-uppercase" value="buscar"></input><!--estilo bootsrap de texto en mayusculas del boton--->
+	    							</div>
+	    						</div>
+	    				</div>			</div>
+	    		</div>
+	    	</div>
+	    </header>    <main class="main">
+	    	<div class="grid-container">
+	    		<div class="grid-y grid-margin-y"> <!--con grid-y se ubican una celda debajo de la otra--->
+	    			<!--con margin-y existe una separacion entre celdas--->
+	    			<div class="cell"><div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+	      <div class="orbit-wrapper">
+	        <div class="orbit-controls">
+	          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+	          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+	        </div>
+	        <ul class="orbit-container">
+	          <li class="is-active orbit-slide">
+	           <!--este primero no lleva <li class="orbit-slide"> --->
+	            <figure class="orbit-figure">
+	              <img class="orbit-image" src="assets/img/announcing-the-js-foundation-logo-image.jpg" alt="Space">
+	              <figcaption class="orbit-caption">Outta This World</figcaption>
+	            </figure>
+	         
+	           <li class="orbit-slide">
+	            <figure class="orbit-figure">
+	              <img class="orbit-image" src="assets/img/gulp2.jpg" alt="Space">
+	              <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+	            </figure>
+	           </li>
+	          <li class="orbit-slide">
+	            <figure class="orbit-figure">
+	              <img class="orbit-image" src="assets/img/2.jpeg" alt="Space">
+	              <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+	            </figure>
+	          </li>
+	          <li class="orbit-slide">
+	            <figure class="orbit-figure">
+	              <img class="orbit-image" src="assets/img/webpack.png" alt="Space">
+	              <figcaption class="orbit-caption">Lets WebPack Rules!</figcaption>
+	            </figure>
+	          </li>
+	          <li class="orbit-slide">
+	            <figure class="orbit-figure">
+	              <img class="orbit-image" src="assets/img/3.jpg" alt="Space">
+	              <figcaption class="orbit-caption">Encapsulating</figcaption>
+	            </figure>
+	          </li>
+	          <li class="orbit-slide">
+	            <figure class="orbit-figure">
+	              <img class="orbit-image" src="assets/img/zurb-foundation.jpg" alt="Space">
+	              <figcaption class="orbit-caption">Outta This World</figcaption>
+	            </figure>
+	          </li>
+	          
+	        </li> 
+	        </ul>
+	      </div>
+	      <nav class="orbit-bullets">
+	        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+	        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+	        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+	        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+	      </nav>
+	    </div></div><!--cell=celda carrusel js--->
+	    			<div class="cell"></div><!--celda de imagenes--->
+	    		</div>
+	    
+	    		<div class="cell">
+	    		<div class="grid-x grid-margin-x">
+	    			<div class="cell-small-6">
+	    				<img src="assets/img/a.jpg">
+	    			</div>
+	    			<div class="cell-small-6">
+	    				<img src="assets/img/c.jpg">
+	    			</div>
+	    			
+	    		</div>
+	    		</div>
+	    	</div>
+	    </main>
+	    <section id="productsList" class="margin-top-1 margin-bottom-1">
+	    	<div class="grid-container"><!--pone ancho y centra alineado con todo en medio--->
+	    		<div class="grid-x grid-margin-x">
+	    			<div class="cell large-3">
+	    				<ul class="menu text-uppercase hide-for-large"><!--se esconde solo para pantallas grandes, osea solo se ve en small y medium--->
+	    					<li><a href="#">Todos</a></li>
+	    					<li><a href="#">Nuevos</a></li>
+	    					<li><a href="#">Lo mas vendidos</a></li>
+	    					<li><a href="#">Accesorios</a></li>
+	    					<li><a href="#">Para regalar</a></li>
+	    					<li><hr></hr></li> <!--se puede modificar hr-margin en settings.sccs--->
+	    					<li class="font-bold"><a href="#">Custom Italy</a></li>
+	    					<li><hr></hr></li>
+	    					<li class="font-bold"><a href="#">Pride</a></li>
+	    					<li><hr></hr></li>
+	    					<li class="font-bold"><a href="#">Resist</a></li>
+	    				</ul>
+	    				
+	    				<ul class="vertical menu text-uppercase show-for-large"><!--se muestra en pantalla grande--->
+	    					<li><a href="#">Todos</a></li>
+	    					<li><a href="#">Nuevos</a></li>
+	    					<li><a href="#">Lo mas vendidos</a></li>
+	    					<li><a href="#">Accesorios</a></li>
+	    					<li><a href="#">Para regalar</a></li>
+	    				
+	    					<li><hr></hr></li> <!--se puede modificar hr-margin en settings.sccs--->
+	    					<li class="font-bold"><a href="#">Custom Italy</a></li><!--estilo de negrita css--->
+	    				
+	    					<!--se puede modificar foundation-palette:primary:#c00(rojo) en settings.sccs-->
+	    					<!--se puede modificar anchor-color-hover:$primary:#c00 en settings.sccs-->
+	    				
+	    					<li><hr></hr></li>
+	    					<li class="font-bold"><a href="#">Pride</a></li>
+	    					<li><hr></hr></li>
+	    					<li class="font-bold"><a href="#">Resist</a></li>
+	    				</ul>				
+	    			</div>
+	    			<div class="cell large-9">
+	    				<div class="grid-x grid-margin-x grid-margin-y">
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    						<div class="product cell small-4 medium-3 "><!--en small son 3 productos x fila y en medium son 4 productos x fila--->
+	    							<span class="label new">Nuevo</span>
+	    							<img class="normal" src="assets/img/products/yeti.png" alt="yeti">
+	    							<img class="hover" src="assets/img/products/yeti2.svg" alt="yeti">
+	    							<span class="label promo">2 x $5 <i class="fi-shopping-cart"></i></span>
+	    						</div>
+	    				</div>
+	    				<hr></hr>
+	    				<div class="grid-x">
+	    					<div class="cell small-12 medium-3 medium-offset-9 text-uppercase text-right">
+	    						<a class="button">Listar todos</a>
+	    					</div>
+	    				</div>			</div> 		
+	    						
+	    		</div>
+	    	</div>
+	    </section>  	
+  	</div>
+
+  	<div class="off-canvas position-right" id="offCanvas" data-off-canvas><!---position puede variar---> 
+  		
+  		<ul class="vertical menu" data-smooth-scroll id="offcanvasMenu">
+  			<li><a href="#">Carrito</a></li>
+  			<li><a href="#productsList">Productos</a></li>
+  			<li><a href="#">Usuarios</a></li>
+  			<li><a href="#">Instrucciones</a></li>
+  			<li><a href="#">Contacto</a></li>
+  			<li><a href="#">Blog</a></li>
+  			<li><a href="#">MarCode</a></li>
+  		</ul>	</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
